@@ -14,10 +14,18 @@ The project includes the folowing steps:
 
 1. [Data Collection](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/01.%20Data%20Collection)
    - GET Requests to the SpaceX REST API
-   - Web Scrapping
-3. Data Wrangling
-4. Exploratory Data Analysis
-5. Interactice Visual Analytics
-6. Predictive Analytics (Classifiaction)
+   - Web Scrapping to collect Falcon 9 historical launch records from a Wikipedia page
+3. [Data Wrangling](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/02.%20Data%20Wrangling)
+   - Using the `.fillna()` method to remove all of the NaN values
+   - `.value_counts()` method to determine the following:
+        - Number of launches on each site
+        - Number and occurrence of each orbit
+        - Number and occurrence of mission outcome per orbit type
+   - Creating a landing outcome label that shows the following:
+        - 0 when the booster did not land successfully
+        - 1 when the booster did land successfully
+5. [Exploratory Data Analysis](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/03.%20Exploratory%20Data%20Analysis)
+6. [Interactice Visual Analytics](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/04.%20Visual%20Analytics)
+7. [Predictive Analytics (Classifiaction)](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/05.%20Predictive%20Analytics%20(Classification))
 
 
