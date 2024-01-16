@@ -12,7 +12,7 @@ SpaceX is able to launch Falcon 9 rockets at a cost of approximately $62m which 
 ## 📑 Main Topics
 The project includes the folowing steps:
 
-1. Data Collection
+1. [Data Collection](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/01.%20Data%20Collection)
    - GET Requests to the SpaceX REST API
    - Web Scrapping
 3. Data Wrangling
