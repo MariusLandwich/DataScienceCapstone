@@ -3,6 +3,7 @@
 
 ## 📑 Summary
 This is the final capstone of the "IBM Data Science Professional Certificate" that combines all the course content into one project. The project aims to predict whether the first stage of the Falcon 9 rocket will land successfully and to find the optimal place for the rocket launches.
+
 My Certificate can be found <a href=https://www.coursera.org/account/accomplishments/professional-cert/8YX3K3W9C857>here</a>.
 
 ### Business Understanding
