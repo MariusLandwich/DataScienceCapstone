@@ -1,4 +1,4 @@
-# DataScienceCapstone
+# Applied Data Science Capstone
 
 
 ## 📑 Summary
