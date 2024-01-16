@@ -15,17 +15,36 @@ The project includes the folowing steps:
 1. [Data Collection](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/01.%20Data%20Collection)
    - GET Requests to the SpaceX REST API
    - Web Scrapping to collect Falcon 9 historical launch records from a Wikipedia page
-3. [Data Wrangling](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/02.%20Data%20Wrangling)
-   - Using the `.fillna()` method to remove all of the NaN values
-   - `.value_counts()` method to determine the following:
+2. [Data Wrangling](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/02.%20Data%20Wrangling)
+   - Using the `fillna()` method to remove all of the NaN values
+   - `value_counts()` method to determine the following:
         - Number of launches on each site
         - Number and occurrence of each orbit
         - Number and occurrence of mission outcome per orbit type
    - Creating a landing outcome label that shows the following:
         - 0 when the booster did not land successfully
         - 1 when the booster did land successfully
-5. [Exploratory Data Analysis](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/03.%20Exploratory%20Data%20Analysis)
-6. [Interactice Visual Analytics](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/04.%20Visual%20Analytics)
-7. [Predictive Analytics (Classifiaction)](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/05.%20Predictive%20Analytics%20(Classification))
+3. [Exploratory Data Analysis](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/03.%20Exploratory%20Data%20Analysis)
+   - Using `SQL` to manipulate and evaluate the SpaceX dataset in order to get a better understanding of the data
+   - Using `Pandas` and `Matplotlib` to visualize relationships between variables, and determine patterns
+4. [Interactice Visual Analytics](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/04.%20Visual%20Analytics)
+   - Geospatial analytics of the data using `Folium`
+   - Creating an interactive dashboard by using `Plotly Dash`
+5. [Predictive Analytics (Classifiaction)](https://github.com/MariusLandwich/DataScienceCapstone/tree/main/05.%20Predictive%20Analytics%20(Classification))
+   - Using the `Scikit-Learn` package to:
+        - Pre-process (standardize) the data
+        - Split the data into training and testing data using train_test_split
+        - Train and evaluate different classification models
+        - Find hyperparameters using GridSearchCV
+   - Plotting confusion matrices for each classification model
+   - Assessing the accuracy of each classification model
 
 
+
+## 🔑 Key Learnings
+- Making use of data science methodologies in order to define and formulate a real-world business problem
+- Using data analysis and data visualisation to load a dataset, clean it, and extract meaningful insights from it
+- Interactive dashboard development with Plotly Dash
+- Interactive map development using Folium
+- Using machine learning to build a predictive model to help a business function more efficiently
+- Structuring and building a data-findings report
