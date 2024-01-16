@@ -41,7 +41,15 @@ The project includes the folowing steps:
 
 
 
-## 🔑 Key Learnings
+## 🔑 Key Findings
+- "KSC LC-39A" is the best launch site for Falcon 9 launches
+- Launches above 7,000kg are less risky than below
+- Although most of mission outcomes are successful, successful landing outcomes seem to improve over time, according the evolution of processes and rockets
+- Decision Tree Classifier has the highest accuracy of all tained ML Models and can thus be used to predict successful landings and increase the profits
+
+
+  
+## 🏆 Content covered in the applied capstone
 - Making use of data science methodologies in order to define and formulate a real-world business problem
 - Using data analysis and data visualisation to load a dataset, clean it, and extract meaningful insights from it
 - Interactive dashboard development with Plotly Dash
